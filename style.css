@@ -8,8 +8,9 @@
 
 .navbar{
     /* background-color: pink; */
-    width: 100%;
+    width: 80%;
     height: 100px;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +69,7 @@ main .overall{
     width: 80%;
     height: 80vh;
     position: relative;
-    margin: 50px 100px;
+    margin: 50px auto;
     display: flex;
     
 }
@@ -764,6 +765,192 @@ main .writeup .believe{
     padding-top: 40px ;
     
     }
+    main .writeup #btn1{
+        background-color: rgb(206, 193, 193);
+        width: 35%;
+        height: 25px;
+        margin: 0px 0;
+        padding: 13px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 15px;
+        border: none;
+        
+    }
+    main .writeup button .one{
+        font-weight: bold;
+        font-size: 18px;
+        color: orange;
+        cursor: pointer;
+    }
+    main .writeup button .zero{
+        font-weight: bold;
+        font-size: 15px;
+        
+    }main .writeup .btn{
+        background-color: orange;
+        width: 60%;
+        height: 25px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        border: none;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    main .writeup .believe{
+        /* background-color: aqua; */
+        height: 25%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 494px) {
+    .navbar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        border-bottom: 2px solid grey;
+    }
+    .navbar .sneakers .nav-bar{
+        display: none;
+    }
+    main{
+        /* background-color: red; */
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        
+    }
+    main .overall{
+        /* background-color: rgb(190, 184, 184); */
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 50px 100px;
+        display: block;
+        
+    }
+    main .overall .shoes{
+        /* background-color: aqua; */
+        margin: 0px 0px;
+        width: 50%;
+    }
+    main .overall .writeup{
+        /* background: blue; */
+        width: 100%;
+        height: 65%;
+        margin: 0px 100px;
+        
+    }
+    /* main .overall .writeup{
+    
+    width: 30%;
+    height: 65%;
+    padding-top: 40px ;
+    
+    } */
+    main .writeup #btn1{
+        background-color: rgb(206, 193, 193);
+        width: 35%;
+        height: 25px;
+        margin: 0px 0;
+        padding: 13px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 15px;
+        border: none;
+        
+    }
+    main .writeup button .one{
+        font-weight: bold;
+        font-size: 18px;
+        color: orange;
+        cursor: pointer;
+    }
+    main .writeup button .zero{
+        font-weight: bold;
+        font-size: 15px;
+        
+    }main .writeup .btn{
+        background-color: orange;
+        width: 60%;
+        height: 25px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        border: none;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    main .writeup .believe{
+        /* background-color: aqua; */
+        height: 25%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+    
+@media screen and (max-width: 390px) {
+    .navbar{
+        width: 80%;
+        height: 20%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid grey;
+    }
+    .navbar .sneakers .nav-bar{
+        display: none;
+    }
+    main{
+        /* background-color: red; */
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        
+    }
+    main .overall{
+        /* background-color: rgb(190, 184, 184); */
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 50px 100px;
+        display: block;
+        
+    }
+    main .overall .shoes{
+        /* background-color: aqua; */
+        margin: 0px 0px;
+        width: 50%;
+    }
+    main .overall .writeup{
+        /* background: blue; */
+        width: 100%;
+        height: 65%;
+        margin: 0px 100px;
+        
+    }
+    /* main .overall .writeup{
+    
+    width: 30%;
+    height: 65%;
+    padding-top: 40px ;
+    
+    } */
     main .writeup #btn1{
         background-color: rgb(206, 193, 193);
         width: 35%;
